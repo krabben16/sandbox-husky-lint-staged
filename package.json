@@ -1,0 +1,13 @@
+{
+  "name": "sandbox-husky-lint_staged",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/krabben16/sandbox-husky-lint_staged.git",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
