@@ -12,6 +12,6 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{txt}": "echo lint-staged!!"
+    "*.{js,jsx}": "date"
   }
 }
