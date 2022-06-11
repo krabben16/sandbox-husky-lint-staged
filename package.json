@@ -5,9 +5,13 @@
   "repository": "https://github.com/krabben16/sandbox-husky-lint_staged.git",
   "license": "MIT",
   "devDependencies": {
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.1"
   },
   "scripts": {
     "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{txt}": "echo lint-staged!!"
   }
 }
