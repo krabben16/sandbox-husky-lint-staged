@@ -1,4 +1,4 @@
-# sandbox-husky-lint_staged
+# sandbox-husky-lint-staged
 
 ## create package.json
 
