@@ -12,6 +12,6 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,jsx}": "dirname"
+    "*.{js,jsx}": "node lint.js"
   }
 }
